@@ -1,15 +1,16 @@
 # EvidenzLLM Web Chat
 
-A modern web-based question answering system that uses evidence-based retrieval and Google Gemini to provide accurate, well-supported answers with a clean ChatGPT-like interface.
+A web-based question answering system that uses evidence-based hybrid retrieval (BM25 & FAISS) and Google Gemini to provide accurate, well-supported answers.
+
+**Note**: To understand my pipeline architecture, check out [my notebook in Google Colab](https://colab.research.google.com/drive/1KtwZqflgednl5DwNub10iqhsvZSA-v_h?usp=sharing).
 
 ## ✨ Features
 
 - **🎯 Smart Query Classification**: Automatically categorizes questions (factual, explanation, reasoning, calculation)
-- **🔍 Hybrid Retrieval**: Combines BM25, dense embeddings, and cross-encoder reranking
+- **🔍 Hybrid Retrieval**: Combines BM25, FAISS dense embeddings, and cross-encoder reranking
 - **📚 Evidence-Based Answers**: Generates answers using Google Gemini with retrieved Wikipedia evidence
 - **💬 Modern Chat UI**: Clean, responsive interface with light effects and smooth animations
 - **🏷️ Topic Tags**: Displays available Wikipedia topics in the header
-- **⚡ Fast & Reliable**: Optimized pipeline with proper error handling
 
 ## 🚀 Quick Start
 
