@@ -18,7 +18,7 @@ Complete setup instructions and solutions to common issues.
 ### System Requirements
 
 - **Python**: 3.8 or higher
-- **RAM**: 4GB minimum, 8GB recommended
+- **RAM**: 4GB minimum, 8GB or more recommended
 - **Disk Space**: ~2GB for models and data
 - **OS**: macOS, Linux, or Windows
 
@@ -82,7 +82,7 @@ The query classifier model should be in `query_classifier_model/` with these fil
 - `tokenizer.json`, `tokenizer_config.json` (tokenizer config)
 - `special_tokens_map.json` (special tokens)
 
-**Note**: These files come from the original EvidenzLLM notebook training process.
+**Note**: These files come from my original EvidenzLLM notebook training process.
 
 ### Wikipedia Knowledge Base
 
@@ -158,6 +158,7 @@ Available Gemini models:
 - `gemini-1.5-pro` - More capable but slower
 - `gemini-2.0-flash-exp` - Experimental features
 
+**Note**: Gemini 2.5 Pro or similar models aren't recommended due to tight safety features resulting in harmless questions getting flagged. 
 ---
 
 ## 🚀 Running the Application

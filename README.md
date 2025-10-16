@@ -35,6 +35,11 @@ cp .env.example .env
 python prepare_data.py
 ```
 
+### Download Pre-Trained Classifier
+You need the query classifier model from the original EvidenzLLM notebook. Place it as `query_classifier_model/` in this directory.
+
+Get a pretrained classifier [here](https://drive.google.com/drive/folders/11eLqNQHzvGy6KBFfqlZJigcynLETLNdH?usp=sharing)
+
 ### Run
 
 ```bash
@@ -87,14 +92,11 @@ GEMINI_MODEL=gemini-2.0-flash
 PORT=5000
 ```
 
-## 🎨 Interface Features
+## 🎨 Interface
 
-- **Modern Design**: Clean white background with minimal contrast
 - **Topic Tags**: Shows available Wikipedia topics in rounded gray pills
 - **Query Type Badges**: Displays the classified query type
 - **Evidence Passages**: Shows supporting evidence with dark gray borders
-- **Smooth Animations**: Professional light effects and transitions
-- **Responsive**: Works on desktop and mobile devices
 
 ## 🔌 API Endpoints
 
@@ -142,8 +144,6 @@ python app.py
 
 Or just use `./start_server.sh` which handles this automatically.
 
-### Missing Model Files
-You need the query classifier model from the original EvidenzLLM notebook. Place it in `query_classifier_model/` directory.
 
 ### API Key Issues
 - Verify your key in `.env` file

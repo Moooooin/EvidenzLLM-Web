@@ -99,13 +99,13 @@ class GeminiGenerator:
     Generates answers using Google Gemini Pro based on RAG prompts.
     """
     
-    def __init__(self, api_key, model_name="gemini-1.5-flash"):
+    def __init__(self, api_key, model_name="gemini-2.0-flash"):
         """
         Initialize Gemini generator.
         
         Args:
             api_key: Google API key for Gemini
-            model_name: Gemini model name (default: gemini-1.5-flash - better BLOCK_NONE support)
+            model_name: Gemini model name (default: gemini-2.0-flash)
         """
         # Configure API - SDK version 0.8+ uses stable v1 API by default
         genai.configure(api_key=api_key)
