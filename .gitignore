@@ -82,6 +82,12 @@ temp/
 *.sqlite
 *.sqlite3
 
+# Kiro IDE
+.kiro/
+
+# Project internal docs
+PROJECT_SUMMARY.md
+
 # Kiro Specs and other
 .kiro/
 PROJECT_SUMMARY.md
